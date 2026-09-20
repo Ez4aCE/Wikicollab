@@ -22,3 +22,7 @@ redis_data/
 Thumbs.db
 
 cloudflared.exe
+
+share.ps1
+cookies_*.txt
+wiki.json
