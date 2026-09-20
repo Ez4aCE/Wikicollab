@@ -1,0 +1,12 @@
+{
+  "name": "wikicollab",
+  "version": "1.0.0",
+  "description": "A Markdown-based collaborative wiki with real-time block-level locking — college minor project.",
+  "scripts": {
+    "test:e2e": "npx playwright test",
+    "test:e2e:ui": "npx playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}

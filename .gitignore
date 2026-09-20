@@ -1,0 +1,24 @@
+# Environment
+.env
+*.local
+
+# Go binaries
+backend/wikicollab-backend
+backend/wikicollab-backend.exe
+
+# Go test cache
+backend/testcache/
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
+# Docker volumes (if accidentally created locally)
+postgres_data/
+redis_data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+cloudflared.exe
